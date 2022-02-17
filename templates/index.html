@@ -1,0 +1,387 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Shirke Karan</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="{% static '/assets/favicon.ico' %}" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="{% static '/css/styles.css' %}" />
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">SK</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <canvas style="position: absolute;"></canvas> 
+    <script type="text/javascript" src="{% static '/js/scripts.js' %}"></script>    
+    <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <img class="avatar" src="{% static '/images/avatar.PNG' %}">
+                        <h1 class="text-white font-weight-bold">Shirke Karan</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">PYTHON DEVELOPER | ML | DATA SCIENTIST</p>
+                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="section" id="about">
+                    <div class="container">
+                        <div class="card aos-init aos-animate" data-aos="fade-up" data-aos-offset="10">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="card-body">
+                                        <div class="h4 mt-0 title1">About</div>
+                                        <p>Hello! I am Shirke Karan. <br>I'm a Python and ML developer. I'm also certified in Data Science and Machine
+                                            Learning from Udemy.</p>
+                                        <p>I have 2 years of experience working in the IT Industry.
+                                            <br><br>Please have a look at my <a href="https://github.com/KaranShirke" target="_blank"><b>GitHub</b></a> Repository and <a href="https://www.linkedin.com/in/karan-shirke-2652b322b/" target="_blank"><b>LinkedIn</b></a> Profile to
+                                            know more.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="card-body">
+                                        <div class="h4 mt-0 title1">Basic Information</div>
+                                        <div class="row">
+                                            <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
+                                            <div class="col-sm-8">24</div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+                                            <div class="col-sm-8"><a href="mailto:karanshirke888@gmail.com" rel="tooltip" title1="Click to send email" data-original-title="" title="">karanshirke888@gmail.com</a></div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+                                            <div class="col-sm-8"><a href="tel:+918879182967" rel="tooltip" title1="Click to Call" data-original-title="" title="">+91-8879182967</a></div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+                                            <div class="col-sm-8">Mumbai, IN</div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col-sm-4"><strong class="text-uppercase">Language:</strong>
+                                            </div>
+                                            <div class="col-sm-8">English, Hindi, Marathi</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills-->
+        <section class="page-section" id="skills">
+            <div class="container">
+                <div class="h4 text-center mb-4 title1">Professional Skills</div>
+                <div class="card aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="progress-container progress-primary"><span class="progress-badge">Python | Flask | Django, Scripting </span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="progress-container progress-primary"><span class="progress-badge">Numpy, Scikit-learn, TensorFlow</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="progress-container progress-primary"><span class="progress-badge">Data Science</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="progress-container progress-primary"><span class="progress-badge">Machine Learning</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="progress-container progress-primary"><span class="progress-badge">R
+                                        Programming</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="progress-container progress-primary"><span class="progress-badge">SQL</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="progress-container progress-primary"><span class="progress-badge">Statistics and EDA</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="progress-container progress-primary"><span class="progress-badge">Linux</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="progress-container progress-primary"><span class="progress-badge">Docker</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="progress-container progress-primary"><span class="progress-badge">Tableau </span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-primary aos-init aos-animate" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Work Experience-->
+        <div class="section" id="experience" tabindex="-1" style="padding-top: 100px;">
+            <div class="container cc-experience">
+                <div class="h4 text-center mb-4 title1">Work Experience</div>
+                <div class="card">
+                    <div class="row">
+                        <div class="col-md-3 bg-primary aos-init aos-animate" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body cc-experience-header">
+                                <p style="color: white;">Jan 2019 - Apr 2021</p>
+                                <div class="h5" style="color: white;">INFINOX Capital</div>
+                            </div>
+                        </div>
+                        <div class="col-md-9 aos-init aos-animate" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body">
+                                <div class="h5">Python &amp; MQL4-MQL5 Developer</div>
+                  <p>• Develop trading robot, indicator, conversion, integration or modification of an existing application with the help of programming languages such as MQL4, MQL5, Python & C++	
+                 <br>• Analyze exchange rate of each money pair using Machine Learning frameworks such as SPARK, Scikit-Learn, Keras, Tensorflow, CUDA and share insights with the marketers for predicting uptrend or downtrend	
+                 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Education-->
+        <div class="section" id="education" style="padding-top: 100px;">
+            <div class="container cc-education">
+                <div class="h4 text-center mb-4 title1">Education</div>
+                <div class="card">
+                    <div class="row">
+                        <div class="col-md-3 bg-primary aos-init aos-animate" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body cc-education-header">
+                                <p style="color: white;" >2019 - 2022</p>
+                                <div class="h5" style="color: white;" >Graduation</div>
+                            </div>
+                        </div>
+                        <div class="col-md-9 aos-init aos-animate" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body">
+                                <div class="h5">Bachelor of Science in Computer Science (B.Sc CS)</div>
+                                <p class="category" style="text-align: left">University of Mumbai - Mumbai (MU)</p>
+                                <p>Gained <b>Practical Knowledge and Skills</b> in data science by working on
+                                    industry projects. Trained by MU professors and industry experts to
+                                    follow best practices in accumulating data, manipulating it, and gaining
+                                    insights. Learnt about tools such as Python, R Programming, MySQL.
+                                    Worked on multiple projects of Data Analytics and Machine Learning.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio-->
+        <div style="padding-top: 100px;" id="portfolio" >
+            <div class="container-fluid p-0" >
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="{% static '/assets/img/portfolio/fullsize/1.jpg' %}" title="Project Name">
+                            <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/1.jpg' %}" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="{% static '/assets/img/portfolio/fullsize/2.jpg' %}" title="Project Name">
+                            <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/2.jpg' %}" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="{% static '/assets/img/portfolio/fullsize/3.jpg' %}" title="Project Name">
+                            <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/3.jpg' %}" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="{% static '/assets/img/portfolio/fullsize/4.jpg' %}" title="Project Name">
+                            <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/4.jpg' %}" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="{% static '/assets/img/portfolio/fullsize/5.jpg' %}" title="Project Name">
+                            <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/5.jpg' %}" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="{% static '/assets/img/portfolio/fullsize/6.jpg' %}" title="Project Name">
+                            <img class="img-fluid" src="{% static 'assets/img/portfolio/thumbnails/6.jpg' %}" alt="..." />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Let's Get In Touch!</h2>
+                        <hr class="divider" />
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        <form id="contactForm" mrthod="post" action="contact.php" role="form">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" name="name" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Full name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" name="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" name="phone" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Phone number</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" name="message" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up at
+                                    <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button-->
+                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="h4 title1 text-center">Shirke Karan</div>
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">&copy; 2022 Shirke Karan. All rights reserved.</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static '/js/scripts.js' %}"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
+
+
+
+
+
